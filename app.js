@@ -16,5 +16,4 @@ mongoose.connect(DB_URL, { useNewUrlParser: true }, function (err) {
 app.use(express.json());
 app.use(router);
 
-
 module.exports = app;
